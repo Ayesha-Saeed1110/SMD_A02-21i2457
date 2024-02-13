@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddf7f7"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/vec"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/vec"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shape" />
+
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="62dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Notifications"
+        android:textColor="#147076"
+        android:textSize="32sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="628dp"
+        android:background="@drawable/greenbell" />
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="1dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Clear All"
+        android:textAlignment="textEnd"
+        android:textColor="#ECB800"
+        android:textSize="24sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/noti" />
+</RelativeLayout>

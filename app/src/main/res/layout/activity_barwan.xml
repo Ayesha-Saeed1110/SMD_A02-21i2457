@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#eff4f2"
+    >
+    <ImageButton
+        android:id="@+id/vec"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vec"
+        android:contentDescription="TODO" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="596dp"
+        android:text="Add New Mentor"
+        android:textColor="#147076"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="572dp"
+        android:text="Help us expand!"
+        android:textColor="#157177"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shape" />
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="29dp"
+        android:background="#50c1c8"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="357dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="50dp"
+            android:src="@drawable/ikhatay" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="05dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Name"
+            android:textColor="#ffffff"
+            android:textSize="26dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#ffffff"
+            android:hint="Enter Name"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="05dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Description"
+            android:textColor="#ffffff"
+            android:textSize="26dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#ffffff"
+            android:hint="Enter Discription"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="05dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Status"
+            android:textColor="#ffffff"
+            android:textSize="26dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#ffffff"
+            android:hint="Available"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#147076"
+            android:text="Upload"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="55dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Don't have an account?"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="700dp"
+android:background="#147076">
+
+<ImageButton
+    android:id="@+id/home"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/home"
+    android:contentDescription="TODO" />
+
+<ImageButton
+    android:id="@+id/search"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/search"
+    android:contentDescription="TODO" />
+
+<ImageButton
+    android:id="@+id/add"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/add"
+    android:contentDescription="TODO" />
+
+<ImageButton
+    android:id="@+id/chat"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/chat"
+    android:contentDescription="TODO" />
+
+<ImageButton
+    android:id="@+id/profile"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/profile"
+    android:contentDescription="TODO" />
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ddf7f7"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="140dp"
+        android:background="#cbcbcb"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="John Cooper"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="05dp"
+            android:text="50:08"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="178dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="115dp"
+            android:background="@drawable/foto" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/me1"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/closedmic" />
+
+    <ImageView
+        android:id="@+id/me"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/volume" />
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/pause" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/cancel" />
+
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#50c1c8"
+    >
+
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/whitearrow"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="John Cooper's"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="-9dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Community"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="721dp"
+        android:background="#50c1c8"
+        android:paddingStart="50dp"
+        android:src="@drawable/whitephone" />
+
+    <ImageButton
+        android:id="@+id/vid"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:background="#50c1c8"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="709dp"
+        android:paddingStart="0dp"
+        android:src="@drawable/whitevid" />
+
+    <ImageView
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="587dp"
+        android:src="@drawable/jcomm">
+
+    </ImageView>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="200dp"
+        android:background="#ddf7f7"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="375dp"
+            android:layout_height="295dp"
+            android:layout_marginTop="78dp"
+            android:paddingStart="10dp"
+            android:src="@drawable/footertwo" />
+
+        <ImageView
+            android:layout_width="373dp"
+            android:layout_height="159dp"
+            android:paddingStart="10dp"
+            android:src="@drawable/footer" />
+
+
+    </LinearLayout
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="700dp"
+        android:background="#147076">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/home"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/search"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/add"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/chat"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/profilebtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/profile"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+</RelativeLayout>
