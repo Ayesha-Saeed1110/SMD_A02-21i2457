@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageButton
 
 class barwan : AppCompatActivity() {
@@ -54,6 +55,21 @@ class barwan : AppCompatActivity() {
             val intent = Intent(this, dashboard::class.java)
             startActivity(intent)
 
+        }
+
+        var name=findViewById<EditText>(R.id.nametext)
+        var number=findViewById<EditText>(R.id.descptext)
+        var email=findViewById<EditText>(R.id.statustext)
+        var save=findViewById<Button>(R.id.button)
+
+        save.setOnClickListener()
+        {
+            val intent=Intent()
+            intent.putExtra("name",name.text.toString())
+            intent.putExtra("phone",number.text.toString())
+            intent.putExtra("email",email.text.toString())
+            setResult(RESULT_OK,intent)
+            finish()
         }
     }
 }

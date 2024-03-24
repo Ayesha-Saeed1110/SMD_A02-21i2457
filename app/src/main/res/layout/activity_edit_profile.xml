@@ -32,6 +32,7 @@
         android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/dots"
         android:layout_width="wrap_content"
         android:layout_height="92dp"
         android:layout_alignParentStart="true"
@@ -66,6 +67,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:background="#ffffff"
@@ -89,6 +91,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:background="#ffffff"
@@ -113,6 +116,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/number"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:background="#ffffff"
@@ -137,6 +141,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/country"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:background="#ffffff"

@@ -56,6 +56,12 @@
         android:contentDescription="TODO" />
 
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvv">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -89,6 +95,7 @@
                     android:text="Booked Sessions"
                     android:textColor="#147076"
                     android:textSize="18sp" />
+
                 <Button
                     android:id="@+id/button"
                     android:layout_width="wrap_content"

@@ -63,12 +63,31 @@
         android:background="#50c1c8"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="357dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:paddingStart="50dp"
-            android:src="@drawable/ikhatay" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="#50c1c8"
+                android:src="@drawable/uvid" />
+
+
+            <ImageButton
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="#50c1c8"
+                android:src="@drawable/uphoto" />
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -83,6 +102,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/nametext"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:layout_marginLeft="20dp"
@@ -107,6 +127,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/descptext"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:layout_marginLeft="20dp"
@@ -131,6 +152,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/statustext"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:layout_marginLeft="20dp"

@@ -78,9 +78,12 @@
             android:paddingRight="20dp"
             android:text="Name"
             android:textColor="#ffffff"
-            android:textSize="20dp"></TextView>
+            android:textSize="20dp">
+
+        </TextView>
 
         <EditText
+            android:id="@+id/nametext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"
@@ -88,7 +91,9 @@
             android:background="#ffffff"
             android:hint="Enter Name"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp"></EditText>
+            android:paddingRight="20dp">
+
+        </EditText>
 
         <TextView
             android:layout_width="match_parent"
@@ -98,9 +103,12 @@
             android:paddingRight="20dp"
             android:text="Email"
             android:textColor="#ffffff"
-            android:textSize="20dp"></TextView>
+            android:textSize="20dp">
+
+        </TextView>
 
         <EditText
+            android:id="@+id/emailtext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"
@@ -108,7 +116,9 @@
             android:background="#ffffff"
             android:hint="Enter Email"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp"></EditText>
+            android:paddingRight="20dp">
+
+        </EditText>
 
         <TextView
             android:layout_width="match_parent"
@@ -118,9 +128,12 @@
             android:paddingRight="20dp"
             android:text="Contact Number"
             android:textColor="#ffffff"
-            android:textSize="20dp"></TextView>
+            android:textSize="20dp">
+
+        </TextView>
 
         <EditText
+            android:id="@+id/contacttext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"
@@ -140,9 +153,12 @@
             android:paddingRight="20dp"
             android:text="Country"
             android:textColor="#ffffff"
-            android:textSize="20sp"></TextView>
+            android:textSize="20sp">
+
+        </TextView>
 
         <EditText
+            android:id="@+id/countrytext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"
@@ -162,9 +178,12 @@
             android:paddingRight="20dp"
             android:text="City"
             android:textColor="#ffffff"
-            android:textSize="20sp"></TextView>
+            android:textSize="20sp">
+
+        </TextView>
 
         <EditText
+            android:id="@+id/citytext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"
@@ -189,6 +208,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/passwordtext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"

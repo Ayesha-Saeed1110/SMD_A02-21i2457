@@ -80,6 +80,7 @@
             android:textSize="30dp"></TextView>
 
         <EditText
+            android:id="@+id/emailtext"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:layout_marginLeft="20dp"
@@ -100,6 +101,7 @@
             android:textSize="30dp"></TextView>
 
         <EditText
+            android:id="@+id/passwordtext"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:layout_marginLeft="20dp"
@@ -128,7 +130,7 @@
         </Button>
 
         <Button
-            android:id="@+id/profile"
+            android:id="@+id/profilebtn"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
