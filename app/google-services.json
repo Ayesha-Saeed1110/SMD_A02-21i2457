@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051295063233",
+    "project_id": "login-4121f",
+    "storage_bucket": "login-4121f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051295063233:android:958bfd41281063cc1cc840",
+        "android_client_info": {
+          "package_name": "com.ayesha.i212457"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPEivq5x359Vew2XCYhuKFe0wLzDSjcH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
